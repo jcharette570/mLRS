@@ -1,0 +1,2 @@
+/home/jake/github_stuff/mLRS/mLRS/Common/setup_types.cpp:15:29:SX_FHSS_FREQUENCY_BAND_ENUM cvt_to_sx_fhss_frequency_band(uint8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/setup_types.cpp:32:27:SETUP_FREQUENCY_BAND_ENUM cvt_to_setup_frequency_band(uint8_t)	0	static

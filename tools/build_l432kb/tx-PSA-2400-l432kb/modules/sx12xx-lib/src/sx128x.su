@@ -1,0 +1,43 @@
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.h:62:18:virtual void Sx128xDriverBase::WaitOnBusy()	0	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.h:63:18:virtual void Sx128xDriverBase::SetDelay(uint16_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.h:67:10:void Sx128xDriverBase::SpiTransfer(uint8_t, uint8_t*)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:18:6:virtual void Sx128xDriverBase::SpiRead(uint8_t*, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:30:6:virtual void Sx128xDriverBase::SpiWrite(uint8_t*, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.h:69:10:void Sx128xDriverBase::SpiWrite(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:44:6:void Sx128xDriverBase::WriteCommand(uint8_t, uint8_t*, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:55:6:void Sx128xDriverBase::ReadCommand(uint8_t, uint8_t*, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:67:6:void Sx128xDriverBase::WriteRegister(uint16_t, uint8_t*, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.h:82:10:void Sx128xDriverBase::WriteRegister(uint16_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:80:6:void Sx128xDriverBase::ReadRegister(uint16_t, uint8_t*, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.h:83:13:uint8_t Sx128xDriverBase::ReadRegister(uint16_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:94:6:void Sx128xDriverBase::WriteBuffer(uint8_t, uint8_t*, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:106:6:void Sx128xDriverBase::ReadBuffer(uint8_t, uint8_t*, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:121:9:uint8_t Sx128xDriverBase::GetStatus()	8	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:128:6:void Sx128xDriverBase::SetStandby(uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:141:6:void Sx128xDriverBase::SetPacketType(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:147:6:void Sx128xDriverBase::SetRfFrequency(uint32_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:159:6:void Sx128xDriverBase::SetBufferBaseAddress(uint8_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:170:6:void Sx128xDriverBase::SetModulationParams(uint8_t, uint8_t, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:199:6:void Sx128xDriverBase::SetPacketParams(uint8_t, uint8_t, uint8_t, uint8_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:217:6:void Sx128xDriverBase::SetDioIrqParams(uint16_t, uint16_t, uint16_t, uint16_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:237:10:uint16_t Sx128xDriverBase::GetIrqStatus()	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:246:6:void Sx128xDriverBase::ClearIrqStatus(uint16_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:257:10:uint16_t Sx128xDriverBase::GetAndClearIrqStatus(uint16_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:269:6:void Sx128xDriverBase::SetTxParams(uint8_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:282:6:void Sx128xDriverBase::SetTx(uint8_t, uint16_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:297:6:void Sx128xDriverBase::SetRx(uint8_t, uint16_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:310:6:void Sx128xDriverBase::GetPacketStatus(int16_t*, int8_t*)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:336:6:void Sx128xDriverBase::GetRxBufferStatus(uint8_t*, uint8_t*)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:349:6:void Sx128xDriverBase::SetRegulatorMode(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:355:6:void Sx128xDriverBase::SetAutoFs(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:361:6:void Sx128xDriverBase::SetFs()	8	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:368:6:void Sx128xDriverBase::SetLnaGainMode(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:384:10:uint16_t Sx128xDriverBase::GetFirmwareRev()	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:399:6:void Sx128xDriverBase::SetSyncWord(uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:414:10:uint32_t Sx128xDriverBase::GetFrequencyErrorIndicator()	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:432:6:void Sx128xDriverBase::SetModulationParamsFLRC(uint8_t, uint8_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:444:6:void Sx128xDriverBase::SetPacketParamsFLRC(uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:462:6:void Sx128xDriverBase::SetCrcSeedFLRC(uint16_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:475:6:bool Sx128xDriverBase::SetSyncWordFLRC(uint32_t, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:513:6:void Sx128xDriverBase::SetSyncWordErrorToleranceFLRC(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx128x.cpp:523:6:void Sx128xDriverBase::GetPacketStatusFLRC(int16_t*)	16	static

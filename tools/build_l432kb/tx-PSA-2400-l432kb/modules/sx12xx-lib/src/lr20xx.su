@@ -1,0 +1,78 @@
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.h:49:18:virtual void Lr20xxDriverBase::SetDelay(uint16_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.h:53:10:void Lr20xxDriverBase::SpiTransfer(uint8_t, uint8_t*)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:15:6:virtual void Lr20xxDriverBase::SpiRead(uint8_t*, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:26:6:virtual void Lr20xxDriverBase::SpiWrite(uint8_t*, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:40:6:void Lr20xxDriverBase::WriteCommand(uint16_t, uint8_t*, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.h:62:10:void Lr20xxDriverBase::WriteCommand(uint16_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:52:6:void Lr20xxDriverBase::ReadCommand(uint16_t, uint8_t*, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:71:6:void Lr20xxDriverBase::WriteRadioTxFifo(uint8_t*, uint8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:76:6:void Lr20xxDriverBase::ReadRadioRxFifo(uint8_t*, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:86:6:void Lr20xxDriverBase::WriteRegMem32(uint32_t, uint32_t*, uint8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:91:6:void Lr20xxDriverBase::WriteRegMemMask32(uint32_t, uint32_t, uint32_t)	40	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:113:6:void Lr20xxDriverBase::ReadRegMem32(uint32_t, uint32_t*, uint8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:122:6:void Lr20xxDriverBase::GetStatus(uint8_t*, uint8_t*)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:130:10:uint16_t Lr20xxDriverBase::GetStatus()	8	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:137:10:uint16_t Lr20xxDriverBase::GetLastStatus()	0	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:142:9:uint8_t Lr20xxDriverBase::GetLastStatusCmd()	0	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:147:9:uint8_t Lr20xxDriverBase::GetLastStatusChipMode()	0	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:152:6:void Lr20xxDriverBase::GetVersion(uint8_t*, uint8_t*)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:162:10:uint16_t Lr20xxDriverBase::GetErrors()	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:171:6:void Lr20xxDriverBase::ClearErrors()	8	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:176:6:void Lr20xxDriverBase::SetDioFunction(uint8_t, uint8_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:186:6:void Lr20xxDriverBase::SetDioRfSwitchConfig(uint8_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:196:6:void Lr20xxDriverBase::SetDioIrqConfig(uint8_t, uint32_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:209:6:void Lr20xxDriverBase::ClearIrq(uint32_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:221:10:uint32_t Lr20xxDriverBase::GetAndClearIrqStatus()	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:230:10:uint16_t Lr20xxDriverBase::GetRxFifoLevel()	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:239:10:uint16_t Lr20xxDriverBase::GetTxFifoLevel()	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:248:6:void Lr20xxDriverBase::ClearRxFifo()	8	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:253:6:void Lr20xxDriverBase::ClearTxFifo()	8	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:258:6:void Lr20xxDriverBase::SetTcxoMode(uint8_t, uint32_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:271:6:void Lr20xxDriverBase::SetRegMode(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:280:6:void Lr20xxDriverBase::Calibrate(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:289:6:void Lr20xxDriverBase::CalibFE(uint16_t, uint16_t, uint16_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:303:6:void Lr20xxDriverBase::CalibFE()	8	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:308:6:void Lr20xxDriverBase::SetStandby(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:317:6:void Lr20xxDriverBase::SetFs()	8	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:325:6:void Lr20xxDriverBase::SetRfFrequency(uint32_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:337:6:void Lr20xxDriverBase::SetRxPath(uint8_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:347:6:void Lr20xxDriverBase::SetPaConfig(uint8_t, uint8_t, uint8_t, uint8_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:358:6:void Lr20xxDriverBase::SetPaConfig915Mhz(int8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:400:6:void Lr20xxDriverBase::SetPaConfig2p4Ghz(int8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:430:6:void Lr20xxDriverBase::SetPaConfig433Mhz(int8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:438:6:void Lr20xxDriverBase::SetTxParams(int8_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:448:6:void Lr20xxDriverBase::SetRssiCalibration(uint8_t, uint8_t, uint8_t*)	0	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:459:6:void Lr20xxDriverBase::SetRxTxFallbackMode(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:468:6:void Lr20xxDriverBase::SetPacketType(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:477:9:uint8_t Lr20xxDriverBase::GetPacketType()	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:486:6:void Lr20xxDriverBase::ResetRxStats()	8	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:491:9:int16_t Lr20xxDriverBase::GetRssiInst()	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:500:6:void Lr20xxDriverBase::SetRx(uint32_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:511:6:void Lr20xxDriverBase::SetRx()	8	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:516:6:void Lr20xxDriverBase::SetTx(uint32_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:527:6:void Lr20xxDriverBase::SetTx()	8	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:532:6:void Lr20xxDriverBase::SelPa(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:541:10:uint16_t Lr20xxDriverBase::GetRxPktLength()	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:550:6:void Lr20xxDriverBase::SetDefaultRxTxTimeout(uint32_t, uint32_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:565:6:void Lr20xxDriverBase::SetAgcGainManual(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:577:6:void Lr20xxDriverBase::SetLoraModulationParams(uint8_t, uint8_t, uint8_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:587:6:void Lr20xxDriverBase::SetLoraPacketParams(uint16_t, uint8_t, uint8_t, uint8_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:599:6:void Lr20xxDriverBase::GetLoraRxStats(uint16_t*, uint16_t*, uint16_t*, uint16_t*)	32	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:612:6:void Lr20xxDriverBase::GetLoraPacketStatus(int16_t*, int16_t*, int8_t*, uint8_t*, uint8_t*, uint16_t*, uint8_t*)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:629:6:void Lr20xxDriverBase::GetLoraPacketStatus(int16_t*, int16_t*, int8_t*)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:643:6:void Lr20xxDriverBase::SetModulationParamsFSK(uint32_t, uint8_t, uint8_t, uint32_t)	32	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:660:6:void Lr20xxDriverBase::SetPacketParamsFSK(uint16_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint16_t, uint8_t, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:680:6:void Lr20xxDriverBase::SetWhiteningParamsFSK(uint8_t, uint16_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:690:6:void Lr20xxDriverBase::SetCrcParamsFSK(uint32_t, uint32_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:707:6:void Lr20xxDriverBase::SetSyncWordFSK(uint64_t, uint8_t, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:725:6:void Lr20xxDriverBase::SetAddressFSK(uint8_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:735:6:void Lr20xxDriverBase::GetRxStatsFSK(uint16_t*, uint16_t*, uint16_t*, uint16_t*, uint16_t*, uint16_t*, uint16_t*)	32	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:752:6:void Lr20xxDriverBase::GetPacketStatusFSK(uint16_t*, int16_t*, int16_t*, uint8_t*, uint8_t*, int8_t*)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:767:6:void Lr20xxDriverBase::GetPacketStatusFSK(int16_t*, int16_t*, int8_t*)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:781:6:void Lr20xxDriverBase::SetModulationParamsFLRC(uint8_t, uint8_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:791:6:void Lr20xxDriverBase::SetPacketParamsFLRC(uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint16_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:807:6:void Lr20xxDriverBase::GetRxStatsFLRC(int16_t*)	0	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:812:6:void Lr20xxDriverBase::GetPacketStatusFLRC(uint16_t*, int16_t*, int16_t*, uint8_t*)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:824:6:void Lr20xxDriverBase::GetPacketStatusFLRC(int16_t*, int16_t*)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:834:6:void Lr20xxDriverBase::SetSyncWordFLRC(uint8_t, uint32_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/lr20xx.cpp:854:6:void Lr20xxDriverBase::EnableSx127xCompatibility()	0	static

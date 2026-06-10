@@ -1,0 +1,16 @@
+/home/jake/github_stuff/mLRS/mLRS/CommonRx/out.h:69:18:virtual void tOutBase::putbuf(uint8_t*, uint16_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/CommonRx/out.h:70:18:virtual bool tOutBase::config_sbus(bool)	0	static
+/home/jake/github_stuff/mLRS/mLRS/CommonRx/out.h:71:18:virtual bool tOutBase::config_crsf(bool)	0	static
+/home/jake/github_stuff/mLRS/mLRS/CommonRx/out.h:72:18:virtual bool tOutBase::config_sbus_inverted(bool)	0	static
+/home/jake/github_stuff/mLRS/mLRS/CommonRx/out.cpp:20:1:tOutBase::tOutBase()	8	static
+/home/jake/github_stuff/mLRS/mLRS/CommonRx/out.cpp:26:6:void tOutBase::Init(tRxSetup*)	16	static
+/home/jake/github_stuff/mLRS/mLRS/CommonRx/out.cpp:41:6:void tOutBase::Configure(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/CommonRx/out.cpp:92:6:void tOutBase::SetChannelOrder(uint8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/CommonRx/out.cpp:172:6:void tOutBase::SendLinkStatistics(tOutLinkStats*)	8	static
+/home/jake/github_stuff/mLRS/mLRS/CommonRx/out.cpp:188:6:void tOutBase::SendLinkStatisticsDisconnected()	0	static
+/home/jake/github_stuff/mLRS/mLRS/CommonRx/out.cpp:219:6:void tOutBase::send_sbus_rcdata(tRcData*, bool, bool)	56	static
+/home/jake/github_stuff/mLRS/mLRS/CommonRx/out.cpp:260:6:void tOutBase::send_crsf_rcdata(tRcData*)	48	static
+/home/jake/github_stuff/mLRS/mLRS/CommonRx/out.cpp:98:6:void tOutBase::SendRcData(tRcData*, bool, bool, int8_t, uint8_t)	40	static
+/home/jake/github_stuff/mLRS/mLRS/CommonRx/out.cpp:292:6:void tOutBase::send_crsf_linkstatistics(tOutLinkStats*)	32	static
+/home/jake/github_stuff/mLRS/mLRS/CommonRx/out.cpp:325:6:void tOutBase::do_crsf()	8	static
+/home/jake/github_stuff/mLRS/mLRS/CommonRx/out.cpp:76:6:void tOutBase::Do()	0	static

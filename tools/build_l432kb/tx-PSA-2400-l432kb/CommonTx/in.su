@@ -1,0 +1,5 @@
+/home/jake/github_stuff/mLRS/mLRS/CommonTx/in.cpp:25:6:void tInBase::Init(bool)	0	static
+/home/jake/github_stuff/mLRS/mLRS/CommonTx/in.cpp:37:6:void tInBase::Configure(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/CommonTx/in.cpp:122:6:void tInBase::get_sbus_data(tRcData*)	80	static
+/home/jake/github_stuff/mLRS/mLRS/CommonTx/in.cpp:85:6:bool tInBase::parse_sbus(tRcData*)	24	static
+/home/jake/github_stuff/mLRS/mLRS/CommonTx/in.cpp:67:6:bool tInBase::ChannelsUpdated(tRcData*)	0	static

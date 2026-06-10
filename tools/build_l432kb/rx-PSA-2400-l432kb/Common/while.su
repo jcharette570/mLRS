@@ -1,0 +1,3 @@
+/home/jake/github_stuff/mLRS/mLRS/Common/while.cpp:17:6:void tWhileBase::Init()	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/while.cpp:25:6:void tWhileBase::Trigger()	8	static
+/home/jake/github_stuff/mLRS/mLRS/Common/while.cpp:33:6:void tWhileBase::Do()	16	static

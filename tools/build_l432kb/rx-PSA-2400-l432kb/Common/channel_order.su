@@ -1,0 +1,5 @@
+/home/jake/github_stuff/mLRS/mLRS/Common/channel_order.cpp:14:1:tChannelOrder::tChannelOrder(uint8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/channel_order.cpp:22:6:void tChannelOrder::Set(uint8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/channel_order.cpp:63:6:void tChannelOrder::Apply(tRcData*)	8	static
+/home/jake/github_stuff/mLRS/mLRS/Common/channel_order.cpp:78:9:uint8_t tChannelOrder::ChannelMap(uint8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/channel_order.cpp:84:6:void tChannelOrder::SetAndApply(tRcData*, uint8_t)	8	static

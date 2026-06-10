@@ -1,0 +1,11 @@
+/home/jake/github_stuff/mLRS/mLRS/Common/tasks.cpp:19:6:void tTasks::Init()	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/tasks.cpp:28:9:uint8_t tTasks::Task()	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/tasks.cpp:60:6:void tTasks::SetMBridgeTask(uint8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/tasks.cpp:61:6:void tTasks::SetCrsfTask(uint8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/tasks.cpp:62:6:void tTasks::SetDisplayTask(uint8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/tasks.cpp:63:6:void tTasks::SetCliTask(uint8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/tasks.cpp:64:6:void tTasks::SetCliTask(uint8_t, int32_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/tasks.cpp:65:6:void tTasks::SetCliTask(uint8_t, char*)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/tasks.cpp:66:9:int32_t tTasks::GetCliTaskValue()	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/tasks.cpp:67:7:char* tTasks::GetCliTaskStr()	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/tasks.cpp:68:6:void tTasks::SetEspTask(uint8_t)	0	static

@@ -1,0 +1,18 @@
+/home/jake/github_stuff/mLRS/mLRS/Common/lq_counter.cpp:31:6:virtual void tStatsLQ::Update1Hz()	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/lq_counter.cpp:59:6:virtual void tStatsBytes::Update1Hz()	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/lq_counter.cpp:83:6:virtual void tStatsMavlinkLQ::Update1Hz()	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/lq_counter.cpp:17:6:void tStatsCount::Init(uint16_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/lq_counter.cpp:42:6:void tStatsLQ::Inc()	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/lq_counter.cpp:48:9:uint8_t tStatsLQ::GetLQ()	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/lq_counter.cpp:66:6:void tStatsBytes::Add(uint16_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/lq_counter.cpp:72:10:uint32_t tStatsBytes::GetBytesPerSec()	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/lq_counter.cpp:95:6:void tStatsMavlinkLQ::Cnt(bool)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/lq_counter.cpp:102:9:uint8_t tStatsMavlinkLQ::GetLQ()	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/lq_counter.cpp:121:6:void tLqCounterBase::SetPeriod(uint8_t)	8	static
+/home/jake/github_stuff/mLRS/mLRS/Common/lq_counter.cpp:128:6:void tLqCounterBase::Reset()	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/lq_counter.cpp:114:6:void tLqCounterBase::Init(uint8_t)	8	static
+/home/jake/github_stuff/mLRS/mLRS/Common/lq_counter.cpp:136:6:void tLqCounterBase::Set()	8	static
+/home/jake/github_stuff/mLRS/mLRS/Common/lq_counter.cpp:152:9:uint8_t tLqCounterBase::GetRaw()	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/lq_counter.cpp:158:9:uint8_t tLqCounterBase::GetNormalized()	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/lq_counter.cpp:164:9:uint8_t tLqCounterBase::calc_raw()	20	static
+/home/jake/github_stuff/mLRS/mLRS/Common/lq_counter.cpp:142:6:void tLqCounterBase::Next()	8	static

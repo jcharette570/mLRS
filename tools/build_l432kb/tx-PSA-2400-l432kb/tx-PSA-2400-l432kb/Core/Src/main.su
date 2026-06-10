@@ -1,0 +1,3 @@
+/home/jake/github_stuff/mLRS/mLRS/tx-PSA-2400-l432kb/Core/Src/main.cpp:115:6:void SystemClock_Config()	96	static
+/home/jake/github_stuff/mLRS/mLRS/tx-PSA-2400-l432kb/Core/Src/main.cpp:68:5:int main()	16	static
+/home/jake/github_stuff/mLRS/mLRS/tx-PSA-2400-l432kb/Core/Src/main.cpp:185:6:void Error_Handler()	0	static

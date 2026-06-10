@@ -1,0 +1,3 @@
+/home/jake/github_stuff/mLRS/mLRS/CommonTx/config_id.cpp:19:6:void tConfigId::Init()	0	static
+/home/jake/github_stuff/mLRS/mLRS/CommonTx/config_id.cpp:25:6:void tConfigId::Change(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/CommonTx/config_id.cpp:41:6:bool tConfigId::Do()	8	static

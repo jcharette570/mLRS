@@ -1,0 +1,40 @@
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:19:9:uint8_t rssi_u7_from_i8(int8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:31:8:int8_t rssi_i8_from_u7(uint8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:59:9:uint8_t rssi_i8_to_ap(int8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:73:9:uint8_t rssi_i8_to_mavradio(int8_t, bool)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:83:10:uint16_t rssi_i8_to_rc(int8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:97:10:uint16_t lq_to_rc(uint8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:107:10:uint16_t clip_rc(int32_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:115:10:uint16_t rc_from_sbus(uint16_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:121:10:uint16_t rc_from_crsf(uint16_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:127:10:uint16_t rc_to_sbus(uint16_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:133:10:uint16_t rc_to_crsf(uint16_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:139:10:uint16_t rc_to_mavlink(uint16_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:145:9:int16_t rc_to_mavlink_13bcentered(uint16_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:154:9:uint8_t crsf_cvt_power(int8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:169:9:uint8_t crsf_cvt_mode(uint8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:183:9:uint8_t crsf_cvt_fps(uint8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:198:9:uint8_t crsf_cvt_rssi_rx(int8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:206:9:uint8_t crsf_cvt_rssi_tx(int8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:214:9:uint8_t crsf_cvt_rssi_percent(int8_t, int16_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:302:9:uint8_t crsf_crc8_calc(uint8_t, uint8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:308:9:uint8_t crsf_crc8_update(uint8_t, const void*, uint16_t)	4	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:361:9:uint8_t dronecan_cvt_power(int8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:369:10:uint16_t cvt_power(int8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:416:6:bool is_valid_bindphrase_char(char)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:424:6:void sanitize_bindphrase(char*, const char*)	24	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:440:10:uint32_t u32_from_bindphrase(char*)	32	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:458:9:uint8_t except_from_bindphrase(char*)	8	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:473:6:void bindphrase_from_u32(char*, uint32_t)	20	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:488:6:void remove_leading_zeros(char*)	16	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:500:6:void power_optstr_from_power_list(char*, int16_t*, uint8_t, uint8_t)	120	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:533:6:void power_optstr_from_rfpower_list(char*, const rfpower_t*, uint8_t, uint8_t)	56	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:545:10:uint16_t version_to_u16(uint32_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:557:10:uint32_t version_from_u16(uint16_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:567:6:void version_to_str(char*, uint32_t)	56	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:592:10:uint32_t version_from_str(char*)	80	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:635:6:void strbufstrcpy(char*, const char*, uint16_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:382:6:void frequency_band_str_to_strbuf(char*, uint8_t, uint8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:400:6:void mode_str_to_strbuf(char*, uint8_t, uint8_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:646:6:void strstrbufcpy(char*, const char*, uint16_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/Common/common_types.cpp:656:6:bool strbufeq(char*, const char*, uint16_t)	12	static

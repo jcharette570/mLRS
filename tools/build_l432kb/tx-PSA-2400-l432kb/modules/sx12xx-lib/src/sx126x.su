@@ -1,0 +1,53 @@
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.h:56:18:virtual void Sx126xDriverBase::WaitOnBusy()	0	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.h:57:18:virtual void Sx126xDriverBase::SetDelay(uint16_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.h:61:10:void Sx126xDriverBase::SpiTransfer(uint8_t, uint8_t*)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:16:6:virtual void Sx126xDriverBase::SpiRead(uint8_t*, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:28:6:virtual void Sx126xDriverBase::SpiWrite(uint8_t*, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.h:63:10:void Sx126xDriverBase::SpiWrite(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:42:6:void Sx126xDriverBase::WriteCommand(uint8_t, uint8_t*, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:53:6:void Sx126xDriverBase::ReadCommand(uint8_t, uint8_t*, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:65:6:void Sx126xDriverBase::WriteRegister(uint16_t, uint8_t*, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.h:76:10:void Sx126xDriverBase::WriteRegister(uint16_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:78:6:void Sx126xDriverBase::ReadRegister(uint16_t, uint8_t*, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.h:77:13:uint8_t Sx126xDriverBase::ReadRegister(uint16_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:92:6:void Sx126xDriverBase::WriteBuffer(uint8_t, uint8_t*, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:104:6:void Sx126xDriverBase::ReadBuffer(uint8_t, uint8_t*, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:119:9:uint8_t Sx126xDriverBase::GetStatus()	8	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:126:6:void Sx126xDriverBase::SetStandby(uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:139:6:void Sx126xDriverBase::SetPacketType(uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:147:6:void Sx126xDriverBase::SetRfFrequency(uint32_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:160:6:void Sx126xDriverBase::SetBufferBaseAddress(uint8_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:171:6:void Sx126xDriverBase::SetModulationParams(uint8_t, uint8_t, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:201:6:void Sx126xDriverBase::SetPacketParams(uint8_t, uint8_t, uint8_t, uint8_t, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:234:6:void Sx126xDriverBase::SetDioIrqParams(uint16_t, uint16_t, uint16_t, uint16_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:254:10:uint16_t Sx126xDriverBase::GetIrqStatus()	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:263:6:void Sx126xDriverBase::ClearIrqStatus(uint16_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:290:6:void Sx126xDriverBase::SetTxParams(uint8_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:301:6:void Sx126xDriverBase::SetTx(uint32_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:320:6:void Sx126xDriverBase::SetRx(uint32_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:337:6:void Sx126xDriverBase::GetPacketStatus(int16_t*, int8_t*)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:348:6:void Sx126xDriverBase::GetRxBufferStatus(uint8_t*, uint8_t*)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:359:6:void Sx126xDriverBase::ClearRxEvent()	8	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:274:10:uint16_t Sx126xDriverBase::GetAndClearIrqStatus(uint16_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:383:6:void Sx126xDriverBase::SetRegulatorMode(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:389:6:void Sx126xDriverBase::SetAutoFs(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:398:6:void Sx126xDriverBase::SetFs()	8	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:405:10:uint16_t Sx126xDriverBase::GetFirmwareRev()	8	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:411:6:void Sx126xDriverBase::SetSyncWord(uint16_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:422:6:void Sx126xDriverBase::ClearDeviceError()	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:430:10:uint16_t Sx126xDriverBase::GetDeviceError()	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:441:6:void Sx126xDriverBase::SetDio3AsTcxoControl(uint8_t, uint32_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:455:6:void Sx126xDriverBase::SetDio2AsRfSwitchControl(uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:462:6:void Sx126xDriverBase::SetSymbNumTimeout(uint8_t)	32	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:483:6:void Sx126xDriverBase::SetRxGain(uint8_t)	8	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:489:6:void Sx126xDriverBase::SetTxClampConfig()	8	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:508:6:void Sx126xDriverBase::SetOverCurrentProtection(uint8_t)	8	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:514:7:void Sx126xDriverBase::SetPaConfig(uint8_t, uint8_t, uint8_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:527:6:void Sx126xDriverBase::SetPaConfig_22dbm()	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:540:6:void Sx126xDriverBase::SetPaConfig_10dbm()	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:553:6:void Sx126xDriverBase::CalibrateImage(uint8_t, uint8_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:570:6:void Sx126xDriverBase::CalibrateImage_mhz(uint16_t, uint16_t)	0	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:581:6:void Sx126xDriverBase::SetModulationParamsGFSK(uint32_t, uint8_t, uint8_t, uint32_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:618:6:void Sx126xDriverBase::SetPacketParamsGFSK(uint16_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t)	24	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:635:6:void Sx126xDriverBase::SetSyncWordGFSK(uint16_t)	16	static
+/home/jake/github_stuff/mLRS/mLRS/modules/sx12xx-lib/src/sx126x.cpp:651:6:void Sx126xDriverBase::GetPacketStatusGFSK(int16_t*)	16	static

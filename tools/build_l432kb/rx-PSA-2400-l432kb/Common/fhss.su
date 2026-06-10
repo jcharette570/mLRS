@@ -1,0 +1,3 @@
+/home/jake/github_stuff/mLRS/mLRS/Common/fhss.cpp:27:10:uint16_t tFhssBase::prng()	0	static
+/home/jake/github_stuff/mLRS/mLRS/Common/fhss.cpp:39:6:void tFhssBase::generate(uint32_t)	112	static
+/home/jake/github_stuff/mLRS/mLRS/Common/fhss.cpp:103:6:void tFhssBase::generate_ortho_except(uint32_t, uint8_t, uint8_t)	128	static
