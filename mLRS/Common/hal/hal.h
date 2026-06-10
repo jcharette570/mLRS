@@ -64,7 +64,6 @@ In tx-hal files:
 #define DEVICE_HAS_ESP_WIFI_BRIDGE_ON_SERIAL  // board has ESP32 or ESP82xx with RESET,GPIO support, on Serial port
 #define DEVICE_HAS_ESP_WIFI_BRIDGE_ON_SERIAL2 // board has ESP32 or ESP82xx with RESET,GPIO support, on Serial2 port
 #define DEVICE_HAS_ESP_WIFI_BRIDGE_W_PASSTHRU_VIA_JRPIN5  // board has ESP32 or ESP82xx with its passthrough via JRPin5 port
-#define DEVICE_HAS_ESP_WIFI_BRIDGE_W_PASSTHRU_VIA_SERIAL  // board has ESP32 or ESP82xx with its passthrough via Serial port
 #define DEVICE_HAS_ESP_WIFI_BRIDGE_CONFIGURE  // board has ESP32 which allows configuration
 #define DEVICE_HAS_ESP_WIFI_BRIDGE_ESP8266    // board has ESP82xx in fact, not ESP32
 #define DEVICE_HAS_ESP_WIFI_BRIDGE_BUTTON2_FLASH    // board has button used to enter ESP flash mode
@@ -147,6 +146,12 @@ extern "C" { void delay_ms(uint16_t ms); }
 
 #ifdef RX_R9MX_868_L433CB
 #include "stm32/rx-hal-R9MX-868-l433cb.h"
+#endif
+#ifdef RX_PSA_2400_L432KB
+#include "stm32/rx-hal-PSA-2400-l432kb.h"
+#endif
+#ifdef TX_PSA_2400_L432KB
+#include "stm32/tx-hal-PSA-2400-l432kb.h"
 #endif
 #ifdef RX_R9M_868_F103C8
 #include "stm32/rx-hal-R9M-868-f103c8.h"
