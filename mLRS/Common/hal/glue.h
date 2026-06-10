@@ -75,7 +75,7 @@
 #include "stm32g4xx_hal_flash_ex.h"
 
 #endif
-#ifdef STM32L433xx
+#if defined STM32L432xx || defined STM32L433xx
 
 #include "stm32l4xx_ll_bus.h"
 #include "stm32l4xx_ll_rcc.h"
